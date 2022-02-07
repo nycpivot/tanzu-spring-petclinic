@@ -42,7 +42,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.show-details="always" -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include="*" -Dmanagement.server.port="8080" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: tanzuapplicationregistry.azurecr.io/supply-chain/tanzu-spring-petclinic-default@sha256:3b35062b51e77f3a2bf246222a9fac672cb675fd426478fc104e56bf28dce57f
+        image: tanzuapplicationregistry.azurecr.io/supply-chain/tanzu-spring-petclinic-default@sha256:97207d581818500d4a6762f110f5a31f65e64379a466b1d388423cda3bcb6c13
         name: workload
         ports:
         - containerPort: 8080
