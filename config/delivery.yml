@@ -22,7 +22,7 @@ spec:
       containers:
       - env:
         - name: JAVA_TOOL_OPTIONS
-        image: tanzuapplicationregistry.azurecr.io/supply-chain/tanzu-spring-petclinic-default@sha256:99dcab1fa7dac0998e9daf029d98d0743e500fb8227724ee8aa99b6086cf4314
+        image: tanzuapplicationregistry.azurecr.io/supply-chain/tanzu-spring-petclinic-default@sha256:7928cc9720d4181f7cf9ac29df77458b43ec7e842b2f9d6eba8cccef44f998af
         name: workload
         resources: {}
         securityContext:
